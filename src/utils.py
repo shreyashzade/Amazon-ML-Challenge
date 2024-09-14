@@ -1,5 +1,5 @@
 import re
-import constants
+from . import constants  # Change to relative import
 import os
 import requests
 import pandas as pd
